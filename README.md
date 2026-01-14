@@ -1,4 +1,4 @@
-![Imgur Image](https://i.imgur.com/bQ4Fivz.gif)
+![Matrix Rain banner](https://github.com/JasmineSutton/JasmineSutton/blob/95d591043fe63ec31747d936d8c2b5561e277d36/GitHub_MatrixRain_Banner_4.gif)
 
 
 ## Hi there 👋
