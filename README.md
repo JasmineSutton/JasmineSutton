@@ -1,4 +1,3 @@
-This is 5
 ![Matrix Rain banner](https://github.com/JasmineSutton/JasmineSutton/blob/main/GitHub_MatrixRain_Banner_5.gif)
 
 
