@@ -1,3 +1,6 @@
+![Imgur Image](https://imgur.com/a/kLjOkAp.gif)
+
+
 ## Hi there 👋
 
 <!--
