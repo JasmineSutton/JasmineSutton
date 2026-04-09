@@ -6,7 +6,7 @@
 **JasmineSutton/JasmineSutton** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-# Hi, I’m Jasmine 👋
+#  Jasmine Sutton | Security Engineering / Governance, Risk, and Compliance
 
 I’m a cybersecurity M.S. student with a 10+ year background in data engineering and systems integration, now focused on **security engineering, governance, and defensible systems**.
 
