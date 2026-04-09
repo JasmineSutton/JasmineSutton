@@ -96,7 +96,7 @@ These are the first four projects in my current AI/security workstream. Across t
 - Case Study (coming next): https://github.com/JasmineSutton/JasmineSutton/blob/main/security-case-studies/bytebites-hardening.md
 
 ### 🎮 [Game Glitch Investigator - Rate Limiting & Audit Trail](https://github.com/JasmineSutton/ai110-module1show-gameglitchinvestigator-starter)
-*Python · Streamlit *  
+*Python · Streamlit*  
 - per-session rate limiting with cooldown and rolling-window controls
 - structured event logging for security-relevant actions
 - session-scoped audit trail with timestamps
