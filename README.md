@@ -69,7 +69,31 @@ When I harden a system, I aim to capture the "why" behind controls: assumptions,
 
 ## Featured Projects
 
-These are the first four projects in my current AI/security workstream. Across them, I’ve focused on input validation, safer error handling, auditability, rate limiting, financial integrity, and reducing unnecessary data exposure.
+These are the first four projects in my current AI/security workstream. Across them, I’ve focused on input validation, safer error handling, auditability, rate limiting, financial integrity, and preserving evidence of security controls.
+
+### 🐾 [PawPal+ - Pet Care Scheduler](https://github.com/JasmineSutton/PawPal)
+*Python · Streamlit · OOP design*  
+- centralized validation and allowlist checks at the backend boundary
+- resource caps to prevent unbounded in-memory growth
+- UI error handling to avoid leaking raw tracebacks
+- atomic JSON saves + graceful handling of corrupted persistence
+- automated tests (documented in security notes)
+
+**Evidence:**  
+- Security Notes: https://github.com/JasmineSutton/PawPal/blob/af862c49cb5f1e4ecc3b77f43fbd64890e68c3be/SECURITY_README.md  
+- Case Study: https://github.com/JasmineSutton/JasmineSutton/blob/main/security-case-studies/pawpal-hardening.md
+
+### 🍽️ [ByteBites - Secure Ordering Backend](https://github.com/JasmineSutton/ByteBites)
+*Python · OOP design*  
+- `Decimal`-based monetary calculations to avoid float rounding/precision risk
+- strict allowlist validation + centralized sanitization helper
+- explicit resource limits for catalog, transactions, and history
+- immutable catalog returns to reduce shared mutable state risk
+- tests + sanity check steps documented for verification
+
+**Evidence:**  
+- Security Notes: https://github.com/JasmineSutton/ByteBites/blob/7a449b0dfc703fabd62696536e602093e0feb620/SECURITY_README.md  
+- Case Study (coming next): https://github.com/JasmineSutton/JasmineSutton/blob/main/security-case-studies/bytebites-hardening.md
 
 ### 🎵 [Playlist Chaos - Secure AI App Debugging](https://github.com/JasmineSutton/ai110-module1tinker-playlistchaos-starter)
 *Python · Streamlit · CodePath AI 110*  
@@ -85,22 +109,6 @@ These are the first four projects in my current AI/security workstream. Across t
 - session-scoped audit trail with timestamps
 - separation between interface behavior and core logic
 
-### 🐾 PawPal+ - Pet Care Scheduler
-*Python · Streamlit · OOP design*  
-- centralized validation and allowlist checks
-- regex validation for structured fields
-- safer error handling to reduce information exposure
-- sanitized object values at the output layer
-
-### 🍽️ ByteBites - Secure Ordering Backend
-*Python · OOP design*  
-- `Decimal`-based monetary calculations to avoid float rounding and precision issues
-- immutable catalog returns to reduce shared mutable state risk
-- strict allowlist validation for text input
-- tests updated to match the hardened financial model
-
-Why it matters:  
-Prevents precision bugs in pricing flows while reducing the risk of unexpected state changes.
 
 ---
 
