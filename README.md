@@ -6,27 +6,58 @@
 **JasmineSutton/JasmineSutton** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-# Hi, I'm Jasmine 👋
+# Hi, I’m Jasmine 👋
 
-I'm a cybersecurity M.S. student with a background in data engineering, systems integration, and secure data work.
+I’m a cybersecurity M.S. student with a 10+ year background in data engineering and systems integration, now focused on **security engineering, governance, and defensible systems**.
 
-I spent years building and fixing data systems. Now I'm focused on cybersecurity, secure engineering, AI-assisted development, and the space where governance, technical controls, and real-world attacks all run into each other.
+I’m especially interested in security work where controls are explicit, evidence is preserved, and systems behave predictably under pressure. I’m comfortable working in documentation-heavy environments and treating data handling as a first-class security concern.
+
+**What I focus on**
+- translating risk into practical technical controls like validation, safer defaults, and audit logging
+- integrity and traceability: correctness, auditability, and predictable behavior
+- incident-style thinking: scope, evidence, impact, remediation, and lessons learned
+- AI-assisted development with a judgment layer: verify, harden, and document before it ships
 
 Right now that looks like:
 - teaching secure AI-assisted development as a CodePath Technical Fellow
 - building and hardening Python projects with security controls layered into the design
-- doing hands-on labs and competition work
-- growing from a strong data and systems foundation into security engineering, GRC, and applied cyber roles
+- doing hands-on labs and competition work, and writing things up clearly
+- connecting a strong data and systems background to applied security and governance work
 
 ---
 
-## What I'm Working On
+## Competition & Hands-On Work
+
+- **NCAE Cyber Games — March 2026 (completed)**  
+  Completed the technical inject on competition day, including SQL injection execution, payload deployment for file extraction, live attack tracking via Gravwell SIEM, and incident reporting with remediation recommendations.
+
+- **WRCCDC / CCDC Invitational — Fall 2025**  
+  Worked across Blue Team and host-school operations, including system hardening, service validation, incident triage, inject work, and competition support.
+
+- **Cybersecurity labs**  
+  Wireless security, mobile hardening, forensics, network analysis, vulnerability assessment, and incident response.
+
+---
+
+## Writing & Security Artifacts (in progress)
+
+Documentation is part of security. It preserves intent, supports audits, and makes systems easier to defend.
+
+When I harden a system, I aim to capture the “why” behind controls (assumptions, threat model, and how the control is verified), not just the code change.
+
+- threat model notes (assets, trust boundaries, abuse cases, mitigations)
+- risk/control notes (what control exists, what it reduces, and how it’s verified)
+- incident-style write-ups (timeline, evidence, impact, recommendations)
+
+---
+
+## What I’m Working On
 
 - 🎓 **M.S. in Cybersecurity — Rider University**  
-  Finishing my program through an independent study focused on secure application engineering, with database security and AI security controls as major themes.
+  Independent study focused on secure application engineering, with database security and AI security controls as major themes.
 
 - 🤖 **CodePath Technical Fellow — AI 110**  
-  I help students debug and harden AI-generated Python and Streamlit apps. A big part of that is teaching judgment: not just how to use AI, but when not to trust it.
+  I help students debug and harden AI-generated Python and Streamlit apps. A big part of that is teaching judgment: not just how to use AI, but when not to trust it — validating AI-generated code for security gaps before it ships.
 
 - 📜 **CompTIA Network+**  
   In progress.
@@ -35,71 +66,38 @@ Right now that looks like:
 
 ## Featured Projects
 
-These are the first four projects in my current AI/security workstream. Across them, I've focused on input validation, safer error handling, auditability, rate limiting, financial integrity, and reducing unnecessary data exposure.
+These are the first four projects in my current AI/security workstream. Across them, I’ve focused on input validation, safer error handling, auditability, rate limiting, financial integrity, and reducing unnecessary data exposure.
 
 ### 🎵 [Playlist Chaos — Secure AI App Debugging](https://github.com/JasmineSutton/ai110-module1tinker-playlistchaos-starter)
 *Python · Streamlit · CodePath AI 110*  
-Security hardening for an AI-generated music app.
-
-What I worked on:
-- input validation with explicit bounds
+- centralized input validation with explicit bounds
 - allowlisting for safer user-controlled values
 - session state sanitization before business logic
-- query length limits to reduce abuse
+- query length limits to reduce abuse and unstable behavior
 
 ### 🎮 [Game Glitch Investigator — Rate Limiting & Audit Trail](https://github.com/JasmineSutton/ai110-module1show-gameglitchinvestigator-starter)
 *Python · Streamlit · CodePath AI 110*  
-Refactoring and securing a multi-file app with a stronger security structure.
-
-What I added:
-- per-session rate limiting
-- structured event logging
-- session-scoped audit trail
-- clearer separation between app behavior and security controls
+- per-session rate limiting with cooldown and rolling-window controls
+- structured event logging for security-relevant actions
+- session-scoped audit trail with timestamps
+- separation between interface behavior and core logic
 
 ### 🐾 PawPal+ — Pet Care Scheduler
 *Python · Streamlit · OOP design*  
-Built around class design, scheduling logic, and safer UI/backend interaction.
-
-What I focused on:
-- centralized validation
-- allowlist and regex-based input checks
-- safer error handling to avoid exposing internal details
-- using sanitized object values at the output layer
+- centralized validation and allowlist checks
+- regex validation for structured fields
+- safer error handling to reduce information exposure
+- sanitized object values at the output layer
 
 ### 🍽️ ByteBites — Secure Ordering Backend
 *Python · OOP design*  
-A restaurant-style ordering backend with security-focused business logic improvements.
-
-What I focused on:
-- Decimal-based monetary calculations for financial integrity
-- immutable catalog returns to reduce unsafe mutation
+- `Decimal`-based monetary calculations to avoid float rounding and precision issues
+- immutable catalog returns to reduce shared mutable state risk
 - strict allowlist validation for text input
-- tests aligned to the hardened calculation model
+- tests updated to match the hardened financial model
 
----
-
-## Competition and Hands-On Work
-
-- **NCAE Cyber Games — March 2026**  
-  Completed the technical inject on competition day, including SQL injection execution, payload deployment for file extraction, Gravwell SIEM tracking, and incident reporting.
-
-- **CCDC / WRCCDC Invitational**  
-  Worked across Blue Team and host school operations, including system hardening, service validation, incident triage, inject work, and competition support.
-
-- **Cybersecurity labs**  
-  Hands-on work in wireless security, mobile hardening, forensics, network analysis, vulnerability assessment, and incident response.
-
----
-
-## Teaching
-
-### CodePath Technical Fellow
-I've supported students in both cybersecurity and AI coursework, including:
-- networking and security fundamentals
-- debugging security labs
-- hardening AI-generated applications
-- helping newer developers build better security instincts
+Why it matters:  
+Prevents precision bugs in pricing flows while reducing the risk of unexpected state changes.
 
 ---
 
@@ -115,7 +113,7 @@ Python · TypeScript · JavaScript · T-SQL · C · C++
 AWS · Azure · Azure DevOps
 
 **Focus Areas**  
-Secure engineering · AI security · database security · governance · incident response · applied security research
+Security engineering · AI security · database security · governance · incident response · applied security research
 
 ---
 
@@ -125,18 +123,8 @@ ISC2 CC · Cisco Ethical Hacking · IBM Cybersecurity Professional Certificate �
 
 ---
 
-## A Little More About Me
-
-I'm especially interested in work that connects technical depth with real security decision-making.
-
-That includes things like:
-- secure system design
-- database and application security
-- AI-assisted development done responsibly
-- governance that reflects how systems actually behave in practice
-
----
-
 ## Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jasminesuttonit-blue?logo=linkedin)](https://linkedin.com/in/jasminesuttonit/)
-| 📧 Jasmine.Sutton@live.com
+
+Best way to reach me: LinkedIn  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jasminesuttonit-blue?logo=linkedin)](https://linkedin.com/in/jasminesuttonit/)  
+📧 Jasmine.Sutton@live.com
