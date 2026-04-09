@@ -8,9 +8,9 @@
 
 #  Jasmine Sutton | Security Engineering / Governance, Risk, and Compliance
 
-I’m a cybersecurity M.S. student with a 10+ year background in data engineering and systems integration, now focused on **security engineering, governance, and defensible systems**.
+I’m a cybersecurity M.S. student with a background in data engineering and systems integration, now focused on **security engineering, governance, and defensible systems**.
 
-I’m especially interested in security work where controls are explicit, evidence is preserved, and systems behave predictably under pressure. I’m comfortable working in documentation-heavy environments and treating data handling as a first-class security concern.
+I’m especially interested in environments where security decisions need to be traceable, evidence matters, and systems are expected to hold up under pressure. I’m comfortable working in documentation-heavy environments and treating data handling as a priority security concern.
 
 **What I focus on**
 - translating risk into practical technical controls like validation, safer defaults, and audit logging
