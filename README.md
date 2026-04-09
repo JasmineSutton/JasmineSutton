@@ -5,6 +5,7 @@
 <!--
 **JasmineSutton/JasmineSutton** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
+![Matrix Rain banner](https://github.com/JasmineSutton/JasmineSutton/blob/main/GitHub_MatrixRain_Banner_5.gif)
 
 # Hi, I’m Jasmine 👋
 
@@ -22,16 +23,16 @@ Right now that looks like:
 - teaching secure AI-assisted development as a CodePath Technical Fellow
 - building and hardening Python projects with security controls layered into the design
 - doing hands-on labs and competition work, and writing things up clearly
-- connecting a strong data and systems background to applied security and governance work
+- connecting a strong data and systems background to applied security, governance, and defensible system design
 
 ---
 
 ## Competition & Hands-On Work
 
-- **NCAE Cyber Games — March 2026 (completed)**  
+- **NCAE Cyber Games - March 2026 (completed)**  
   Completed the technical inject on competition day, including SQL injection execution, payload deployment for file extraction, live attack tracking via Gravwell SIEM, and incident reporting with remediation recommendations.
 
-- **WRCCDC / CCDC Invitational — Fall 2025**  
+- **WRCCDC / CCDC Invitational - Fall 2025**  
   Worked across Blue Team and host-school operations, including system hardening, service validation, incident triage, inject work, and competition support.
 
 - **Cybersecurity labs**  
@@ -43,7 +44,7 @@ Right now that looks like:
 
 Documentation is part of security. It preserves intent, supports audits, and makes systems easier to defend.
 
-When I harden a system, I aim to capture the “why” behind controls (assumptions, threat model, and how the control is verified), not just the code change.
+When I harden a system, I aim to capture the "why" behind controls: assumptions, threat model, and how the control is verified, not just the code change.
 
 - threat model notes (assets, trust boundaries, abuse cases, mitigations)
 - risk/control notes (what control exists, what it reduces, and how it’s verified)
@@ -53,11 +54,11 @@ When I harden a system, I aim to capture the “why” behind controls (assumpti
 
 ## What I’m Working On
 
-- 🎓 **M.S. in Cybersecurity — Rider University**  
+- 🎓 **M.S. in Cybersecurity - Rider University**  
   Independent study focused on secure application engineering, with database security and AI security controls as major themes.
 
-- 🤖 **CodePath Technical Fellow — AI 110**  
-  I help students debug and harden AI-generated Python and Streamlit apps. A big part of that is teaching judgment: not just how to use AI, but when not to trust it — validating AI-generated code for security gaps before it ships.
+- 🤖 **CodePath Technical Fellow - AI 110**  
+  I help students debug and harden AI-generated Python and Streamlit apps. A big part of that is teaching judgment: not just how to use AI, but when not to trust it, including validating AI-generated code for security gaps before it ships.
 
 - 📜 **CompTIA Network+**  
   In progress.
@@ -68,28 +69,28 @@ When I harden a system, I aim to capture the “why” behind controls (assumpti
 
 These are the first four projects in my current AI/security workstream. Across them, I’ve focused on input validation, safer error handling, auditability, rate limiting, financial integrity, and reducing unnecessary data exposure.
 
-### 🎵 [Playlist Chaos — Secure AI App Debugging](https://github.com/JasmineSutton/ai110-module1tinker-playlistchaos-starter)
+### 🎵 [Playlist Chaos - Secure AI App Debugging](https://github.com/JasmineSutton/ai110-module1tinker-playlistchaos-starter)
 *Python · Streamlit · CodePath AI 110*  
 - centralized input validation with explicit bounds
 - allowlisting for safer user-controlled values
 - session state sanitization before business logic
 - query length limits to reduce abuse and unstable behavior
 
-### 🎮 [Game Glitch Investigator — Rate Limiting & Audit Trail](https://github.com/JasmineSutton/ai110-module1show-gameglitchinvestigator-starter)
+### 🎮 [Game Glitch Investigator - Rate Limiting & Audit Trail](https://github.com/JasmineSutton/ai110-module1show-gameglitchinvestigator-starter)
 *Python · Streamlit · CodePath AI 110*  
 - per-session rate limiting with cooldown and rolling-window controls
 - structured event logging for security-relevant actions
 - session-scoped audit trail with timestamps
 - separation between interface behavior and core logic
 
-### 🐾 PawPal+ — Pet Care Scheduler
+### 🐾 PawPal+ - Pet Care Scheduler
 *Python · Streamlit · OOP design*  
 - centralized validation and allowlist checks
 - regex validation for structured fields
 - safer error handling to reduce information exposure
 - sanitized object values at the output layer
 
-### 🍽️ ByteBites — Secure Ordering Backend
+### 🍽️ ByteBites - Secure Ordering Backend
 *Python · OOP design*  
 - `Decimal`-based monetary calculations to avoid float rounding and precision issues
 - immutable catalog returns to reduce shared mutable state risk
@@ -98,6 +99,14 @@ These are the first four projects in my current AI/security workstream. Across t
 
 Why it matters:  
 Prevents precision bugs in pricing flows while reducing the risk of unexpected state changes.
+
+---
+
+## What I’m Looking For
+
+I’m open to full-time roles and projects in security engineering, governance, and application security where I can contribute to defensible systems, strong documentation, and practical security controls.
+
+I’m especially drawn to teams working on secure system design, incident response, evidence-driven security work, and AI-related security problems.
 
 ---
 
@@ -125,6 +134,8 @@ ISC2 CC · Cisco Ethical Hacking · IBM Cybersecurity Professional Certificate �
 
 ## Connect
 
-Best way to reach me: LinkedIn  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jasminesuttonit-blue?logo=linkedin)](https://linkedin.com/in/jasminesuttonit/)  
-📧 Jasmine.Sutton@live.com
+Best way to reach me: Email  
+Open to internships, projects, and full-time opportunities.  
+📧 Jasmine.Sutton@live.com  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jasminesuttonit-blue?logo=linkedin)](https://linkedin.com/in/jasminesuttonit/)
