@@ -5,6 +5,7 @@
 <!--
 **JasmineSutton/JasmineSutton** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
+
 # Hi, I'm Jasmine 👋
 
 I'm a cybersecurity M.S. student with a background in data engineering, systems integration, and secure data work.
@@ -13,7 +14,7 @@ I spent years building and fixing data systems. Now I'm focused on cybersecurity
 
 Right now that looks like:
 - teaching secure AI-assisted development as a CodePath Technical Fellow
-- building security-focused projects
+- building and hardening Python projects with security controls layered into the design
 - doing hands-on labs and competition work
 - growing from a strong data and systems foundation into security engineering, GRC, and applied cyber roles
 
@@ -33,6 +34,8 @@ Right now that looks like:
 ---
 
 ## Featured Projects
+
+These are the first four projects in my current AI/security workstream. Across them, I've focused on input validation, safer error handling, auditability, rate limiting, financial integrity, and reducing unnecessary data exposure.
 
 ### 🎵 [Playlist Chaos — Secure AI App Debugging](https://github.com/JasmineSutton/ai110-module1tinker-playlistchaos-starter)
 *Python · Streamlit · CodePath AI 110*  
@@ -54,9 +57,25 @@ What I added:
 - session-scoped audit trail
 - clearer separation between app behavior and security controls
 
-### 📊 [AI Bias Security Demo](https://github.com/JasmineSutton/AI_Bias_Security_Demo)
-*Python*  
-A small demo project exploring bias in security-related model output and why that matters for AI governance, detection quality, and secure ML design.
+### 🐾 PawPal+ — Pet Care Scheduler
+*Python · Streamlit · OOP design*  
+Built around class design, scheduling logic, and safer UI/backend interaction.
+
+What I focused on:
+- centralized validation
+- allowlist and regex-based input checks
+- safer error handling to avoid exposing internal details
+- using sanitized object values at the output layer
+
+### 🍽️ ByteBites — Secure Ordering Backend
+*Python · OOP design*  
+A restaurant-style ordering backend with security-focused business logic improvements.
+
+What I focused on:
+- Decimal-based monetary calculations for financial integrity
+- immutable catalog returns to reduce unsafe mutation
+- strict allowlist validation for text input
+- tests aligned to the hardened calculation model
 
 ---
 
