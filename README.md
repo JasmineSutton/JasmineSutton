@@ -28,14 +28,20 @@ Right now that looks like:
 
 ## Competition & Hands-On Work
 
-- **NCAE Cyber Games - March 2026 (completed)**  
-  Completed the technical inject on competition day, including SQL injection execution, payload deployment for file extraction, live attack tracking via Gravwell SIEM, and incident reporting with remediation recommendations.
+### NCAE Cyber Games - March 2026
+Completed the technical inject on competition day, including SQL injection execution, malicious payload deployment for file extraction, live attack tracking through Gravwell SIEM, and incident reporting with remediation recommendations. 
+This work required technical execution, situational awareness, and clear written documentation under competition conditions.
 
-- **WRCCDC / CCDC Invitational - Fall 2025**  
-  Worked across Blue Team and host-school operations, including system hardening, service validation, incident triage, inject work, and competition support.
+### WRCCDC / CCDC Invitational - 2025-2026
+Worked across multiple competition roles, including Blue Team participation, host-school support, inject creation, and Orange Team operations. 
+Contributed to system hardening, service validation, incident triage, and live competition support in a scenario-driven environment. 
+Also offered a permanent Red Team spot, reflecting growing involvement across both defensive and offensive security work.
+Participated in a WRCCDC research study involving Anthropic’s Claude, where the model was used both as a separate Blue Team and as support for student Red Teamers. 
+This experience gave me exposure to defensive operations, competition support, offensive-growth opportunities, and AI-assisted security research within the CCDC environment.
 
-- **Cybersecurity labs**  
-  Wireless security, mobile hardening, forensics, network analysis, vulnerability assessment, and incident response.
+### Cybersecurity Labs & Practical Work
+Completed hands-on labs in wireless security, mobile hardening, digital forensics, network analysis, vulnerability assessment, and incident response. 
+This work has focused on applying security concepts in practical technical environments and strengthening investigative, analytical, and defensive skills.
 
 ---
 
