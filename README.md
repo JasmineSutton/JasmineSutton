@@ -95,20 +95,16 @@ These are the first four projects in my current AI/security workstream. Across t
 - Security Notes: https://github.com/JasmineSutton/ByteBites/blob/7a449b0dfc703fabd62696536e602093e0feb620/SECURITY_README.md  
 - Case Study (coming next): https://github.com/JasmineSutton/JasmineSutton/blob/main/security-case-studies/bytebites-hardening.md
 
-### 🎵 [Playlist Chaos - Secure AI App Debugging](https://github.com/JasmineSutton/ai110-module1tinker-playlistchaos-starter)
-*Python · Streamlit · CodePath AI 110*  
-- centralized input validation with explicit bounds
-- allowlisting for safer user-controlled values
-- session state sanitization before business logic
-- query length limits to reduce abuse and unstable behavior
-
 ### 🎮 [Game Glitch Investigator - Rate Limiting & Audit Trail](https://github.com/JasmineSutton/ai110-module1show-gameglitchinvestigator-starter)
-*Python · Streamlit · CodePath AI 110*  
+*Python · Streamlit *  
 - per-session rate limiting with cooldown and rolling-window controls
 - structured event logging for security-relevant actions
 - session-scoped audit trail with timestamps
 - separation between interface behavior and core logic
 
+**Evidence:**  
+- Security Notes: https://github.com/JasmineSutton/Game-Glitch-Investigator/blob/main/Security.md
+- Case Study: https://github.com/JasmineSutton/JasmineSutton/blob/main/security-case-studies/GameGlitchInvestigator-hardening.md
 
 ---
 
