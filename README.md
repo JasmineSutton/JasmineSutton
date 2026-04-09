@@ -7,97 +7,117 @@
 -->
 # Hi, I'm Jasmine 👋
 
-**Cybersecurity M.S. candidate · Security-Aware Data Engineer · CodePath Technical Fellow**
+I'm a cybersecurity M.S. student with a background in data engineering, systems integration, and secure data work.
 
-10+ years in data engineering and systems integration, now building full-time in cybersecurity.
-My work sits at the intersection of secure engineering, AI-assisted development, and compliance —
-with hands-on depth in forensics, GRC, and applied offensive/defensive techniques.
+I spent years building and fixing data systems. Now I'm focused on cybersecurity, secure engineering, AI-assisted development, and the space where governance, technical controls, and real-world attacks all run into each other.
 
----
-
-## 🔭 What I'm Working On Now
-
-- 🎓 **M.S. Cybersecurity** — Rider University (Expected May 2027)  
-  Independent study (Dr. Tang): full-stack secure reference architecture with AI security controls —
-  NLP input validation, ML anomaly detection, session-scoped audit logging
-- 🤖 **CodePath Technical Fellow — AI 110** — teaching developers *when not to trust AI output*,
-  not just how to use it
-- 📜 **CompTIA Network+** — in progress
+Right now that looks like:
+- teaching secure AI-assisted development as a CodePath Technical Fellow
+- building security-focused projects
+- doing hands-on labs and competition work
+- growing from a strong data and systems foundation into security engineering, GRC, and applied cyber roles
 
 ---
 
-## 🚀 Featured Projects
+## What I'm Working On
+
+- 🎓 **M.S. in Cybersecurity — Rider University**  
+  Finishing my program through an independent study focused on secure application engineering, with database security and AI security controls as major themes.
+
+- 🤖 **CodePath Technical Fellow — AI 110**  
+  I help students debug and harden AI-generated Python and Streamlit apps. A big part of that is teaching judgment: not just how to use AI, but when not to trust it.
+
+- 📜 **CompTIA Network+**  
+  In progress.
+
+---
+
+## Featured Projects
 
 ### 🎵 [Playlist Chaos — Secure AI App Debugging](https://github.com/JasmineSutton/ai110-module1tinker-playlistchaos-starter)
 *Python · Streamlit · CodePath AI 110*  
-Hardened an AI-generated music app against common web application weaknesses:
-input validation with explicit bounds + genre allowlisting, session state sanitization pipeline
-before any business logic, and query length bounding to prevent resource abuse.
+Security hardening for an AI-generated music app.
+
+What I worked on:
+- input validation with explicit bounds
+- allowlisting for safer user-controlled values
+- session state sanitization before business logic
+- query length limits to reduce abuse
 
 ### 🎮 [Game Glitch Investigator — Rate Limiting & Audit Trail](https://github.com/JasmineSutton/ai110-module1show-gameglitchinvestigator-starter)
 *Python · Streamlit · CodePath AI 110*  
-Refactored a coupled multi-file codebase, then added security controls: per-session rate limiting
-(cooldown + rolling window), structured event logging, and a session-scoped audit trail capturing
-all security-relevant events with timestamps.
+Refactoring and securing a multi-file app with a stronger security structure.
+
+What I added:
+- per-session rate limiting
+- structured event logging
+- session-scoped audit trail
+- clearer separation between app behavior and security controls
 
 ### 📊 [AI Bias Security Demo](https://github.com/JasmineSutton/AI_Bias_Security_Demo)
 *Python*  
-Sample data generation and visualization for observing bias in security model outputs —
-relevant to AI governance and secure ML pipeline design.
+A small demo project exploring bias in security-related model output and why that matters for AI governance, detection quality, and secure ML design.
 
 ---
 
-## ✅ GRC / Assurance
-
-- 📋 GRC Toolkit — risk register, control mapping, policy templates, audit checklists — *(coming soon)*
-- 🗺️ Control Mapping Example — ISO 27001-style control-to-evidence mapping — *(coming soon)*
-
-**Frameworks:** NIST 800-53 · ISO 27001 · HIPAA · SOC 2 · MITRE ATT\&CK · CIS Controls
-
----
-
-## 🧪 Competitions & Teams
+## Competition and Hands-On Work
 
 - **NCAE Cyber Games — March 2026**  
-  Only participant on competition day to complete the technical inject —
-  SQL injection execution, payload deployment for file extraction,
-  live attack tracking via Gravwell SIEM, incident reporting with remediation recommendations
+  Completed the technical inject on competition day, including SQL injection execution, payload deployment for file extraction, Gravwell SIEM tracking, and incident reporting.
 
-- **CCDC/WRCCDC Invitational — Fall 2025**  
-  Blue Team: system hardening, service validation, incident triage, inject management  
-  Host school ops: inject creation, scenario design, Orange Team coordination  
-  Offered permanent Red Team candidacy based on demonstrated offensive aptitude
+- **CCDC / WRCCDC Invitational**  
+  Worked across Blue Team and host school operations, including system hardening, service validation, incident triage, inject work, and competition support.
 
----
-
-## 🎓 Teaching & Leadership
-
-- **CodePath Technical Fellow — AI 110** *(Feb 2026–Present)*  
-  Guides students in secure AI-assisted development; debugs and hardens AI-generated
-  Python/Streamlit apps (input validation, session sanitization, rate limiting, audit logging).
-  Core lesson: developers must decide what to trust, revise, and reject when working with AI tools.
-
-- **CodePath Technical Fellow — CYB101** *(Fall 2025)*  
-  Mentored 30 students through security labs, networking, vulnerabilities, encryption,
-  and structured debugging of security tools.
+- **Cybersecurity labs**  
+  Hands-on work in wireless security, mobile hardening, forensics, network analysis, vulnerability assessment, and incident response.
 
 ---
 
-## 🧰 Skills
+## Teaching
 
-**Security:** Wireshark · Nmap · Metasploit · Kali Linux · Burp Suite · FTK · Autopsy ·
-Volatility · Gravwell SIEM · Nessus  
-**Languages:** Python · TypeScript · T-SQL · JavaScript · C · C++  
-**Cloud:** Microsoft Azure · AWS · Azure DevOps  
-
----
-
-## 📜 Certifications
-ISC2 CC · Cisco Ethical Hacking · IBM Cybersecurity Professional ·
-AWS ML Foundations · AWS Generative AI · Azure Fundamentals · Network+ *(in progress)*
+### CodePath Technical Fellow
+I've supported students in both cybersecurity and AI coursework, including:
+- networking and security fundamentals
+- debugging security labs
+- hardening AI-generated applications
+- helping newer developers build better security instincts
 
 ---
 
-## 🔗 Connect
+## Tools and Areas I Work With
+
+**Security / IR / Testing**  
+Wireshark · Nmap · Burp Suite · Kali Linux · Metasploit · Nessus · FTK · Autopsy · Volatility · Gravwell
+
+**Languages**  
+Python · TypeScript · JavaScript · T-SQL · C · C++
+
+**Cloud / Platforms**  
+AWS · Azure · Azure DevOps
+
+**Focus Areas**  
+Secure engineering · AI security · database security · governance · incident response · applied security research
+
+---
+
+## Certifications
+
+ISC2 CC · Cisco Ethical Hacking · IBM Cybersecurity Professional Certificate · AWS ML Foundations · AWS Generative AI · Azure Fundamentals · CompTIA Network+ *(in progress)*
+
+---
+
+## A Little More About Me
+
+I'm especially interested in work that connects technical depth with real security decision-making.
+
+That includes things like:
+- secure system design
+- database and application security
+- AI-assisted development done responsibly
+- governance that reflects how systems actually behave in practice
+
+---
+
+## Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jasminesuttonit-blue?logo=linkedin)](https://linkedin.com/in/jasminesuttonit/)
 | 📧 Jasmine.Sutton@live.com
