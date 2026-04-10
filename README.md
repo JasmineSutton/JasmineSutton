@@ -84,7 +84,7 @@ These are the first four projects in my current AI/security workstream. Across t
 - centralized validation and allowlist checks at the backend boundary
 - resource caps to prevent unbounded in-memory growth
 - UI error handling to avoid leaking raw tracebacks
-- atomic JSON saves + graceful handling of corrupted persistence
+- atomic JSON saves + handling of corrupted persistence
 - automated tests (documented in security notes)
 
 **Evidence:**  
