@@ -65,7 +65,7 @@ When I harden a system, I aim to capture the "why" behind controls: assumptions,
   Independent study focused on secure application engineering, with database security and AI security controls as major themes.
 
 - 🤖 **CodePath Technical Fellow - AI 110**  
-  I help students debug develop Python and Streamlit apps with AI aassistance. A big part of that is teaching judgment: not just how to use AI, but when not to trust it, including validating AI-generated code for security gaps before it ships.
+  I help students develop and debug Python and Streamlit apps with AI assistance. I also independently review the code from a security standpoint, identifying and remediating weaknesses to harden the applications in line with security frameworks.
 
 - 🛰️ **Coastline College - STORM Cyber**  
   Part of Coastline’s STORM Cyber Career Development Program, combining cybersecurity coursework, certification prep, workshops, and Cybersecurity x AI research culminating in a paper, poster session, and research symposium.
