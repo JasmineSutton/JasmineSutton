@@ -28,11 +28,13 @@ Right now that looks like:
 
 ## Competition & Hands-On Work
 
-### NCAE Cyber Games - March 2026
+### National Centers of Academic Excellence in Cybersecurity (NCAE) Cyber Games - March 2026
+Participated in the NCAE Cyber Games, a national collegiate cybersecurity competition designed to simulate real-world defensive operations through hands-on technical and incident-response scenarios.
 Completed the technical inject on competition day, including SQL injection execution, malicious payload deployment for file extraction, live attack tracking through Gravwell SIEM, and incident reporting with remediation recommendations. 
 This work required technical execution, situational awareness, and clear written documentation under competition conditions.
 
-### WRCCDC / CCDC Invitational - 2025-2026
+### West Coast Regional Collegiate Cyber Defense Competition (WRCCDC) / CCDC Invitational - 2025-2026
+Participated in CCDC, a hands-on cybersecurity competition focused on defending and operating an existing network infrastructure while responding to live threats and business-driven tasks.
 Worked across multiple competition roles, including Blue Team participation, host-school support, inject creation, and Orange Team operations. 
 Contributed to system hardening, service validation, incident triage, and live competition support in a scenario-driven environment. 
 Also offered a permanent Red Team spot, reflecting growing involvement across both defensive and offensive security work.
@@ -63,13 +65,13 @@ When I harden a system, I aim to capture the "why" behind controls: assumptions,
   Independent study focused on secure application engineering, with database security and AI security controls as major themes.
 
 - 🤖 **CodePath Technical Fellow - AI 110**  
-  I help students debug and harden AI-generated Python and Streamlit apps. A big part of that is teaching judgment: not just how to use AI, but when not to trust it, including validating AI-generated code for security gaps before it ships.
+  I help students debug develop Python and Streamlit apps with AI aassistance. A big part of that is teaching judgment: not just how to use AI, but when not to trust it, including validating AI-generated code for security gaps before it ships.
 
 - 🛰️ **Coastline College - STORM Cyber**  
   Part of Coastline’s STORM Cyber Career Development Program, combining cybersecurity coursework, certification prep, workshops, and Cybersecurity x AI research culminating in a paper, poster session, and research symposium.
 
 - 📜 **CompTIA Network+**  
-  In progress.
+  Studying for CompTIA Network+ to strengthen hands-on networking knowledge in troubleshooting, configuration, management, and secure network support.
 
 ---
 
