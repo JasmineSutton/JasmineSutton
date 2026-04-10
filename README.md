@@ -47,7 +47,7 @@ This work has focused on applying security concepts in practical technical envir
 
 ---
 
-## Writing & Security Artifacts (in progress)
+## Writing & Security Artifacts
 
 Documentation is part of security. It preserves intent, supports audits, and makes systems easier to defend.
 
@@ -101,7 +101,7 @@ These are the first four projects in my current AI/security workstream. Across t
 
 **Evidence:**  
 - Security Notes: https://github.com/JasmineSutton/ByteBites/blob/7a449b0dfc703fabd62696536e602093e0feb620/SECURITY_README.md  
-- Case Study (coming next): https://github.com/JasmineSutton/JasmineSutton/blob/main/security-case-studies/bytebites-hardening.md
+- Case Study: https://github.com/JasmineSutton/JasmineSutton/blob/main/security-case-studies/bytebites-hardening.md
 
 ### 🎮 [Game Glitch Investigator - Rate Limiting & Audit Trail](https://github.com/JasmineSutton/ai110-module1show-gameglitchinvestigator-starter)
 *Python · Streamlit*  
