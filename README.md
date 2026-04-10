@@ -1,12 +1,12 @@
-![Matrix Rain banner](https://github.com/JasmineSutton/JasmineSutton/blob/main/GitHub_MatrixRain_Banner_5.gif)
-
+#  <p align="center">![Matrix Rain banner](https://github.com/JasmineSutton/JasmineSutton/blob/main/GitHub_MatrixRain_Banner_5.gif)</p>
 
 
 <!--
 **JasmineSutton/JasmineSutton** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-#  Jasmine Sutton | Security Engineering / Governance, Risk, and Compliance
+#  <p align="center">Jasmine Sutton</p>
+# <p align="center">Security Engineering / Governance, Risk, and Compliance</p>
 
 I’m a cybersecurity M.S. student with a background in data engineering and systems integration, now focused on **security engineering, governance, and defensible systems**.
 
